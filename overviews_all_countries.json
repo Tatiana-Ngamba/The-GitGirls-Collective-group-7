@@ -1,0 +1,2018 @@
+{
+    "AF": {
+        "currency_code": "AFN",
+        "geoname_id": "AFN",
+        "iso_alpha2": "AF",
+        "iso_alpha3": "AFG",
+        "name": "Afghanistan",
+        "population": 29121286
+    },
+    "AX": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "AX",
+        "iso_alpha3": "ALA",
+        "name": "Aland Islands",
+        "population": 26711
+    },
+    "AL": {
+        "currency_code": "ALL",
+        "geoname_id": "ALL",
+        "iso_alpha2": "AL",
+        "iso_alpha3": "ALB",
+        "name": "Albania",
+        "population": 2986952
+    },
+    "DZ": {
+        "currency_code": "DZD",
+        "geoname_id": "DZD",
+        "iso_alpha2": "DZ",
+        "iso_alpha3": "DZA",
+        "name": "Algeria",
+        "population": 34586184
+    },
+    "AS": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "AS",
+        "iso_alpha3": "ASM",
+        "name": "American Samoa",
+        "population": 57881
+    },
+    "AD": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "AD",
+        "iso_alpha3": "AND",
+        "name": "Andorra",
+        "population": 84000
+    },
+    "AO": {
+        "currency_code": "AOA",
+        "geoname_id": "AOA",
+        "iso_alpha2": "AO",
+        "iso_alpha3": "AGO",
+        "name": "Angola",
+        "population": 13068161
+    },
+    "AI": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "AI",
+        "iso_alpha3": "AIA",
+        "name": "Anguilla",
+        "population": 13254
+    },
+    "AQ": {
+        "currency_code": "N/A",
+        "geoname_id": "N/A",
+        "iso_alpha2": "AQ",
+        "iso_alpha3": "ATA",
+        "name": "Antarctica",
+        "population": 0
+    },
+    "AG": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "AG",
+        "iso_alpha3": "ATG",
+        "name": "Antigua and Barbuda",
+        "population": 86754
+    },
+    "AR": {
+        "currency_code": "ARS",
+        "geoname_id": "ARS",
+        "iso_alpha2": "AR",
+        "iso_alpha3": "ARG",
+        "name": "Argentina",
+        "population": 41343201
+    },
+    "AM": {
+        "currency_code": "AMD",
+        "geoname_id": "AMD",
+        "iso_alpha2": "AM",
+        "iso_alpha3": "ARM",
+        "name": "Armenia",
+        "population": 2968000
+    },
+    "AW": {
+        "currency_code": "AWG",
+        "geoname_id": "AWG",
+        "iso_alpha2": "AW",
+        "iso_alpha3": "ABW",
+        "name": "Aruba",
+        "population": 71566
+    },
+    "AU": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "AU",
+        "iso_alpha3": "AUS",
+        "name": "Australia",
+        "population": 21515754
+    },
+    "AT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "AT",
+        "iso_alpha3": "AUT",
+        "name": "Austria",
+        "population": 8205000
+    },
+    "AZ": {
+        "currency_code": "AZN",
+        "geoname_id": "AZN",
+        "iso_alpha2": "AZ",
+        "iso_alpha3": "AZE",
+        "name": "Azerbaijan",
+        "population": 8303512
+    },
+    "BS": {
+        "currency_code": "BSD",
+        "geoname_id": "BSD",
+        "iso_alpha2": "BS",
+        "iso_alpha3": "BHS",
+        "name": "Bahamas",
+        "population": 301790
+    },
+    "BH": {
+        "currency_code": "BHD",
+        "geoname_id": "BHD",
+        "iso_alpha2": "BH",
+        "iso_alpha3": "BHR",
+        "name": "Bahrain",
+        "population": 738004
+    },
+    "BD": {
+        "currency_code": "BDT",
+        "geoname_id": "BDT",
+        "iso_alpha2": "BD",
+        "iso_alpha3": "BGD",
+        "name": "Bangladesh",
+        "population": 156118464
+    },
+    "BB": {
+        "currency_code": "BBD",
+        "geoname_id": "BBD",
+        "iso_alpha2": "BB",
+        "iso_alpha3": "BRB",
+        "name": "Barbados",
+        "population": 285653
+    },
+    "BY": {
+        "currency_code": "BYR",
+        "geoname_id": "BYR",
+        "iso_alpha2": "BY",
+        "iso_alpha3": "BLR",
+        "name": "Belarus",
+        "population": 9685000
+    },
+    "BE": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "BE",
+        "iso_alpha3": "BEL",
+        "name": "Belgium",
+        "population": 10403000
+    },
+    "BZ": {
+        "currency_code": "BZD",
+        "geoname_id": "BZD",
+        "iso_alpha2": "BZ",
+        "iso_alpha3": "BLZ",
+        "name": "Belize",
+        "population": 314522
+    },
+    "BJ": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "BJ",
+        "iso_alpha3": "BEN",
+        "name": "Benin",
+        "population": 9056010
+    },
+    "BM": {
+        "currency_code": "BMD",
+        "geoname_id": "BMD",
+        "iso_alpha2": "BM",
+        "iso_alpha3": "BMU",
+        "name": "Bermuda",
+        "population": 65365
+    },
+    "BT": {
+        "currency_code": "BTN",
+        "geoname_id": "BTN",
+        "iso_alpha2": "BT",
+        "iso_alpha3": "BTN",
+        "name": "Bhutan",
+        "population": 699847
+    },
+    "BO": {
+        "currency_code": "BOB",
+        "geoname_id": "BOB",
+        "iso_alpha2": "BO",
+        "iso_alpha3": "BOL",
+        "name": "Bolivia",
+        "population": 9947418
+    },
+    "BQ": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "BQ",
+        "iso_alpha3": "BES",
+        "name": "Bonaire, Saint Eustatius and Saba ",
+        "population": 18012
+    },
+    "BA": {
+        "currency_code": "BAM",
+        "geoname_id": "BAM",
+        "iso_alpha2": "BA",
+        "iso_alpha3": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "population": 4590000
+    },
+    "BW": {
+        "currency_code": "BWP",
+        "geoname_id": "BWP",
+        "iso_alpha2": "BW",
+        "iso_alpha3": "BWA",
+        "name": "Botswana",
+        "population": 2029307
+    },
+    "BV": {
+        "currency_code": "NOK",
+        "geoname_id": "NOK",
+        "iso_alpha2": "BV",
+        "iso_alpha3": "BVT",
+        "name": "Bouvet Island",
+        "population": 0
+    },
+    "BR": {
+        "currency_code": "BRL",
+        "geoname_id": "BRL",
+        "iso_alpha2": "BR",
+        "iso_alpha3": "BRA",
+        "name": "Brazil",
+        "population": 201103330
+    },
+    "IO": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "IO",
+        "iso_alpha3": "IOT",
+        "name": "British Indian Ocean Territory",
+        "population": 4000
+    },
+    "VG": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "VG",
+        "iso_alpha3": "VGB",
+        "name": "British Virgin Islands",
+        "population": 21730
+    },
+    "BN": {
+        "currency_code": "BND",
+        "geoname_id": "BND",
+        "iso_alpha2": "BN",
+        "iso_alpha3": "BRN",
+        "name": "Brunei",
+        "population": 395027
+    },
+    "BG": {
+        "currency_code": "BGN",
+        "geoname_id": "BGN",
+        "iso_alpha2": "BG",
+        "iso_alpha3": "BGR",
+        "name": "Bulgaria",
+        "population": 7148785
+    },
+    "BF": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "BF",
+        "iso_alpha3": "BFA",
+        "name": "Burkina Faso",
+        "population": 16241811
+    },
+    "BI": {
+        "currency_code": "BIF",
+        "geoname_id": "BIF",
+        "iso_alpha2": "BI",
+        "iso_alpha3": "BDI",
+        "name": "Burundi",
+        "population": 9863117
+    },
+    "KH": {
+        "currency_code": "KHR",
+        "geoname_id": "KHR",
+        "iso_alpha2": "KH",
+        "iso_alpha3": "KHM",
+        "name": "Cambodia",
+        "population": 14453680
+    },
+    "CM": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "CM",
+        "iso_alpha3": "CMR",
+        "name": "Cameroon",
+        "population": 19294149
+    },
+    "CA": {
+        "currency_code": "CAD",
+        "geoname_id": "CAD",
+        "iso_alpha2": "CA",
+        "iso_alpha3": "CAN",
+        "name": "Canada",
+        "population": 33679000
+    },
+    "CV": {
+        "currency_code": "CVE",
+        "geoname_id": "CVE",
+        "iso_alpha2": "CV",
+        "iso_alpha3": "CPV",
+        "name": "Cape Verde",
+        "population": 508659
+    },
+    "KY": {
+        "currency_code": "KYD",
+        "geoname_id": "KYD",
+        "iso_alpha2": "KY",
+        "iso_alpha3": "CYM",
+        "name": "Cayman Islands",
+        "population": 44270
+    },
+    "CF": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "CF",
+        "iso_alpha3": "CAF",
+        "name": "Central African Republic",
+        "population": 4844927
+    },
+    "TD": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "TD",
+        "iso_alpha3": "TCD",
+        "name": "Chad",
+        "population": 10543464
+    },
+    "CL": {
+        "currency_code": "CLP",
+        "geoname_id": "CLP",
+        "iso_alpha2": "CL",
+        "iso_alpha3": "CHL",
+        "name": "Chile",
+        "population": 16746491
+    },
+    "CN": {
+        "currency_code": "CNY",
+        "geoname_id": "CNY",
+        "iso_alpha2": "CN",
+        "iso_alpha3": "CHN",
+        "name": "China",
+        "population": 1330044000
+    },
+    "CX": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "CX",
+        "iso_alpha3": "CXR",
+        "name": "Christmas Island",
+        "population": 1500
+    },
+    "CC": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "CC",
+        "iso_alpha3": "CCK",
+        "name": "Cocos Islands",
+        "population": 628
+    },
+    "CO": {
+        "currency_code": "COP",
+        "geoname_id": "COP",
+        "iso_alpha2": "CO",
+        "iso_alpha3": "COL",
+        "name": "Colombia",
+        "population": 47790000
+    },
+    "KM": {
+        "currency_code": "KMF",
+        "geoname_id": "KMF",
+        "iso_alpha2": "KM",
+        "iso_alpha3": "COM",
+        "name": "Comoros",
+        "population": 773407
+    },
+    "CK": {
+        "currency_code": "NZD",
+        "geoname_id": "NZD",
+        "iso_alpha2": "CK",
+        "iso_alpha3": "COK",
+        "name": "Cook Islands",
+        "population": 21388
+    },
+    "CR": {
+        "currency_code": "CRC",
+        "geoname_id": "CRC",
+        "iso_alpha2": "CR",
+        "iso_alpha3": "CRI",
+        "name": "Costa Rica",
+        "population": 4516220
+    },
+    "HR": {
+        "currency_code": "HRK",
+        "geoname_id": "HRK",
+        "iso_alpha2": "HR",
+        "iso_alpha3": "HRV",
+        "name": "Croatia",
+        "population": 4284889
+    },
+    "CU": {
+        "currency_code": "CUP",
+        "geoname_id": "CUP",
+        "iso_alpha2": "CU",
+        "iso_alpha3": "CUB",
+        "name": "Cuba",
+        "population": 11423000
+    },
+    "CW": {
+        "currency_code": "ANG",
+        "geoname_id": "ANG",
+        "iso_alpha2": "CW",
+        "iso_alpha3": "CUW",
+        "name": "Curacao",
+        "population": 141766
+    },
+    "CY": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "CY",
+        "iso_alpha3": "CYP",
+        "name": "Cyprus",
+        "population": 1102677
+    },
+    "CZ": {
+        "currency_code": "CZK",
+        "geoname_id": "CZK",
+        "iso_alpha2": "CZ",
+        "iso_alpha3": "CZE",
+        "name": "Czechia",
+        "population": 10476000
+    },
+    "CD": {
+        "currency_code": "CDF",
+        "geoname_id": "CDF",
+        "iso_alpha2": "CD",
+        "iso_alpha3": "COD",
+        "name": "Democratic Republic of the Congo",
+        "population": 70916439
+    },
+    "DK": {
+        "currency_code": "DKK",
+        "geoname_id": "DKK",
+        "iso_alpha2": "DK",
+        "iso_alpha3": "DNK",
+        "name": "Denmark",
+        "population": 5484000
+    },
+    "DJ": {
+        "currency_code": "DJF",
+        "geoname_id": "DJF",
+        "iso_alpha2": "DJ",
+        "iso_alpha3": "DJI",
+        "name": "Djibouti",
+        "population": 740528
+    },
+    "DM": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "DM",
+        "iso_alpha3": "DMA",
+        "name": "Dominica",
+        "population": 72813
+    },
+    "DO": {
+        "currency_code": "DOP",
+        "geoname_id": "DOP",
+        "iso_alpha2": "DO",
+        "iso_alpha3": "DOM",
+        "name": "Dominican Republic",
+        "population": 9823821
+    },
+    "TL": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "TL",
+        "iso_alpha3": "TLS",
+        "name": "East Timor",
+        "population": 1154625
+    },
+    "EC": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "EC",
+        "iso_alpha3": "ECU",
+        "name": "Ecuador",
+        "population": 14790608
+    },
+    "EG": {
+        "currency_code": "EGP",
+        "geoname_id": "EGP",
+        "iso_alpha2": "EG",
+        "iso_alpha3": "EGY",
+        "name": "Egypt",
+        "population": 80471869
+    },
+    "SV": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "SV",
+        "iso_alpha3": "SLV",
+        "name": "El Salvador",
+        "population": 6052064
+    },
+    "GQ": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "GQ",
+        "iso_alpha3": "GNQ",
+        "name": "Equatorial Guinea",
+        "population": 1014999
+    },
+    "ER": {
+        "currency_code": "ERN",
+        "geoname_id": "ERN",
+        "iso_alpha2": "ER",
+        "iso_alpha3": "ERI",
+        "name": "Eritrea",
+        "population": 5792984
+    },
+    "EE": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "EE",
+        "iso_alpha3": "EST",
+        "name": "Estonia",
+        "population": 1291170
+    },
+    "ET": {
+        "currency_code": "ETB",
+        "geoname_id": "ETB",
+        "iso_alpha2": "ET",
+        "iso_alpha3": "ETH",
+        "name": "Ethiopia",
+        "population": 88013491
+    },
+    "FK": {
+        "currency_code": "FKP",
+        "geoname_id": "FKP",
+        "iso_alpha2": "FK",
+        "iso_alpha3": "FLK",
+        "name": "Falkland Islands",
+        "population": 2638
+    },
+    "FO": {
+        "currency_code": "DKK",
+        "geoname_id": "DKK",
+        "iso_alpha2": "FO",
+        "iso_alpha3": "FRO",
+        "name": "Faroe Islands",
+        "population": 48228
+    },
+    "FJ": {
+        "currency_code": "FJD",
+        "geoname_id": "FJD",
+        "iso_alpha2": "FJ",
+        "iso_alpha3": "FJI",
+        "name": "Fiji",
+        "population": 875983
+    },
+    "FI": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "FI",
+        "iso_alpha3": "FIN",
+        "name": "Finland",
+        "population": 5244000
+    },
+    "FR": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "FR",
+        "iso_alpha3": "FRA",
+        "name": "France",
+        "population": 64768389
+    },
+    "GF": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "GF",
+        "iso_alpha3": "GUF",
+        "name": "French Guiana",
+        "population": 195506
+    },
+    "PF": {
+        "currency_code": "XPF",
+        "geoname_id": "XPF",
+        "iso_alpha2": "PF",
+        "iso_alpha3": "PYF",
+        "name": "French Polynesia",
+        "population": 270485
+    },
+    "TF": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "TF",
+        "iso_alpha3": "ATF",
+        "name": "French Southern Territories",
+        "population": 140
+    },
+    "GA": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "GA",
+        "iso_alpha3": "GAB",
+        "name": "Gabon",
+        "population": 1545255
+    },
+    "GM": {
+        "currency_code": "GMD",
+        "geoname_id": "GMD",
+        "iso_alpha2": "GM",
+        "iso_alpha3": "GMB",
+        "name": "Gambia",
+        "population": 1593256
+    },
+    "GE": {
+        "currency_code": "GEL",
+        "geoname_id": "GEL",
+        "iso_alpha2": "GE",
+        "iso_alpha3": "GEO",
+        "name": "Georgia",
+        "population": 4630000
+    },
+    "DE": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "DE",
+        "iso_alpha3": "DEU",
+        "name": "Germany",
+        "population": 81802257
+    },
+    "GH": {
+        "currency_code": "GHS",
+        "geoname_id": "GHS",
+        "iso_alpha2": "GH",
+        "iso_alpha3": "GHA",
+        "name": "Ghana",
+        "population": 24339838
+    },
+    "GI": {
+        "currency_code": "GIP",
+        "geoname_id": "GIP",
+        "iso_alpha2": "GI",
+        "iso_alpha3": "GIB",
+        "name": "Gibraltar",
+        "population": 27884
+    },
+    "GR": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "GR",
+        "iso_alpha3": "GRC",
+        "name": "Greece",
+        "population": 11000000
+    },
+    "GL": {
+        "currency_code": "DKK",
+        "geoname_id": "DKK",
+        "iso_alpha2": "GL",
+        "iso_alpha3": "GRL",
+        "name": "Greenland",
+        "population": 56375
+    },
+    "GD": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "GD",
+        "iso_alpha3": "GRD",
+        "name": "Grenada",
+        "population": 107818
+    },
+    "GP": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "GP",
+        "iso_alpha3": "GLP",
+        "name": "Guadeloupe",
+        "population": 443000
+    },
+    "GU": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "GU",
+        "iso_alpha3": "GUM",
+        "name": "Guam",
+        "population": 159358
+    },
+    "GT": {
+        "currency_code": "GTQ",
+        "geoname_id": "GTQ",
+        "iso_alpha2": "GT",
+        "iso_alpha3": "GTM",
+        "name": "Guatemala",
+        "population": 13550440
+    },
+    "GG": {
+        "currency_code": "GBP",
+        "geoname_id": "GBP",
+        "iso_alpha2": "GG",
+        "iso_alpha3": "GGY",
+        "name": "Guernsey",
+        "population": 65228
+    },
+    "GN": {
+        "currency_code": "GNF",
+        "geoname_id": "GNF",
+        "iso_alpha2": "GN",
+        "iso_alpha3": "GIN",
+        "name": "Guinea",
+        "population": 10324025
+    },
+    "GW": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "GW",
+        "iso_alpha3": "GNB",
+        "name": "Guinea-Bissau",
+        "population": 1565126
+    },
+    "GY": {
+        "currency_code": "GYD",
+        "geoname_id": "GYD",
+        "iso_alpha2": "GY",
+        "iso_alpha3": "GUY",
+        "name": "Guyana",
+        "population": 748486
+    },
+    "HT": {
+        "currency_code": "HTG",
+        "geoname_id": "HTG",
+        "iso_alpha2": "HT",
+        "iso_alpha3": "HTI",
+        "name": "Haiti",
+        "population": 9648924
+    },
+    "HM": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "HM",
+        "iso_alpha3": "HMD",
+        "name": "Heard Island and McDonald Islands",
+        "population": 0
+    },
+    "HN": {
+        "currency_code": "HNL",
+        "geoname_id": "HNL",
+        "iso_alpha2": "HN",
+        "iso_alpha3": "HND",
+        "name": "Honduras",
+        "population": 7989415
+    },
+    "HK": {
+        "currency_code": "HKD",
+        "geoname_id": "HKD",
+        "iso_alpha2": "HK",
+        "iso_alpha3": "HKG",
+        "name": "Hong Kong",
+        "population": 6898686
+    },
+    "HU": {
+        "currency_code": "HUF",
+        "geoname_id": "HUF",
+        "iso_alpha2": "HU",
+        "iso_alpha3": "HUN",
+        "name": "Hungary",
+        "population": 9982000
+    },
+    "IS": {
+        "currency_code": "ISK",
+        "geoname_id": "ISK",
+        "iso_alpha2": "IS",
+        "iso_alpha3": "ISL",
+        "name": "Iceland",
+        "population": 308910
+    },
+    "IN": {
+        "currency_code": "INR",
+        "geoname_id": "INR",
+        "iso_alpha2": "IN",
+        "iso_alpha3": "IND",
+        "name": "India",
+        "population": 1173108018
+    },
+    "ID": {
+        "currency_code": "IDR",
+        "geoname_id": "IDR",
+        "iso_alpha2": "ID",
+        "iso_alpha3": "IDN",
+        "name": "Indonesia",
+        "population": 242968342
+    },
+    "IR": {
+        "currency_code": "IRR",
+        "geoname_id": "IRR",
+        "iso_alpha2": "IR",
+        "iso_alpha3": "IRN",
+        "name": "Iran",
+        "population": 76923300
+    },
+    "IQ": {
+        "currency_code": "IQD",
+        "geoname_id": "IQD",
+        "iso_alpha2": "IQ",
+        "iso_alpha3": "IRQ",
+        "name": "Iraq",
+        "population": 29671605
+    },
+    "IE": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "IE",
+        "iso_alpha3": "IRL",
+        "name": "Ireland",
+        "population": 4622917
+    },
+    "IM": {
+        "currency_code": "GBP",
+        "geoname_id": "GBP",
+        "iso_alpha2": "IM",
+        "iso_alpha3": "IMN",
+        "name": "Isle of Man",
+        "population": 75049
+    },
+    "IL": {
+        "currency_code": "ILS",
+        "geoname_id": "ILS",
+        "iso_alpha2": "IL",
+        "iso_alpha3": "ISR",
+        "name": "Israel",
+        "population": 7353985
+    },
+    "IT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "IT",
+        "iso_alpha3": "ITA",
+        "name": "Italy",
+        "population": 60340328
+    },
+    "CI": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "CI",
+        "iso_alpha3": "CIV",
+        "name": "Ivory Coast",
+        "population": 21058798
+    },
+    "JM": {
+        "currency_code": "JMD",
+        "geoname_id": "JMD",
+        "iso_alpha2": "JM",
+        "iso_alpha3": "JAM",
+        "name": "Jamaica",
+        "population": 2847232
+    },
+    "JP": {
+        "currency_code": "JPY",
+        "geoname_id": "JPY",
+        "iso_alpha2": "JP",
+        "iso_alpha3": "JPN",
+        "name": "Japan",
+        "population": 127288000
+    },
+    "JE": {
+        "currency_code": "GBP",
+        "geoname_id": "GBP",
+        "iso_alpha2": "JE",
+        "iso_alpha3": "JEY",
+        "name": "Jersey",
+        "population": 90812
+    },
+    "JO": {
+        "currency_code": "JOD",
+        "geoname_id": "JOD",
+        "iso_alpha2": "JO",
+        "iso_alpha3": "JOR",
+        "name": "Jordan",
+        "population": 6407085
+    },
+    "KZ": {
+        "currency_code": "KZT",
+        "geoname_id": "KZT",
+        "iso_alpha2": "KZ",
+        "iso_alpha3": "KAZ",
+        "name": "Kazakhstan",
+        "population": 15340000
+    },
+    "KE": {
+        "currency_code": "KES",
+        "geoname_id": "KES",
+        "iso_alpha2": "KE",
+        "iso_alpha3": "KEN",
+        "name": "Kenya",
+        "population": 40046566
+    },
+    "KI": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "KI",
+        "iso_alpha3": "KIR",
+        "name": "Kiribati",
+        "population": 92533
+    },
+    "XK": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "XK",
+        "iso_alpha3": "XKX",
+        "name": "Kosovo",
+        "population": 1800000
+    },
+    "KW": {
+        "currency_code": "KWD",
+        "geoname_id": "KWD",
+        "iso_alpha2": "KW",
+        "iso_alpha3": "KWT",
+        "name": "Kuwait",
+        "population": 2789132
+    },
+    "KG": {
+        "currency_code": "KGS",
+        "geoname_id": "KGS",
+        "iso_alpha2": "KG",
+        "iso_alpha3": "KGZ",
+        "name": "Kyrgyzstan",
+        "population": 5776500
+    },
+    "LA": {
+        "currency_code": "LAK",
+        "geoname_id": "LAK",
+        "iso_alpha2": "LA",
+        "iso_alpha3": "LAO",
+        "name": "Laos",
+        "population": 6368162
+    },
+    "LV": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "LV",
+        "iso_alpha3": "LVA",
+        "name": "Latvia",
+        "population": 2217969
+    },
+    "LB": {
+        "currency_code": "LBP",
+        "geoname_id": "LBP",
+        "iso_alpha2": "LB",
+        "iso_alpha3": "LBN",
+        "name": "Lebanon",
+        "population": 4125247
+    },
+    "LS": {
+        "currency_code": "LSL",
+        "geoname_id": "LSL",
+        "iso_alpha2": "LS",
+        "iso_alpha3": "LSO",
+        "name": "Lesotho",
+        "population": 1919552
+    },
+    "LR": {
+        "currency_code": "LRD",
+        "geoname_id": "LRD",
+        "iso_alpha2": "LR",
+        "iso_alpha3": "LBR",
+        "name": "Liberia",
+        "population": 3685076
+    },
+    "LY": {
+        "currency_code": "LYD",
+        "geoname_id": "LYD",
+        "iso_alpha2": "LY",
+        "iso_alpha3": "LBY",
+        "name": "Libya",
+        "population": 6461454
+    },
+    "LI": {
+        "currency_code": "CHF",
+        "geoname_id": "CHF",
+        "iso_alpha2": "LI",
+        "iso_alpha3": "LIE",
+        "name": "Liechtenstein",
+        "population": 35000
+    },
+    "LT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "LT",
+        "iso_alpha3": "LTU",
+        "name": "Lithuania",
+        "population": 2944459
+    },
+    "LU": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "LU",
+        "iso_alpha3": "LUX",
+        "name": "Luxembourg",
+        "population": 497538
+    },
+    "MO": {
+        "currency_code": "MOP",
+        "geoname_id": "MOP",
+        "iso_alpha2": "MO",
+        "iso_alpha3": "MAC",
+        "name": "Macao",
+        "population": 449198
+    },
+    "MK": {
+        "currency_code": "MKD",
+        "geoname_id": "MKD",
+        "iso_alpha2": "MK",
+        "iso_alpha3": "MKD",
+        "name": "Macedonia",
+        "population": 2062294
+    },
+    "MG": {
+        "currency_code": "MGA",
+        "geoname_id": "MGA",
+        "iso_alpha2": "MG",
+        "iso_alpha3": "MDG",
+        "name": "Madagascar",
+        "population": 21281844
+    },
+    "MW": {
+        "currency_code": "MWK",
+        "geoname_id": "MWK",
+        "iso_alpha2": "MW",
+        "iso_alpha3": "MWI",
+        "name": "Malawi",
+        "population": 15447500
+    },
+    "MY": {
+        "currency_code": "MYR",
+        "geoname_id": "MYR",
+        "iso_alpha2": "MY",
+        "iso_alpha3": "MYS",
+        "name": "Malaysia",
+        "population": 28274729
+    },
+    "MV": {
+        "currency_code": "MVR",
+        "geoname_id": "MVR",
+        "iso_alpha2": "MV",
+        "iso_alpha3": "MDV",
+        "name": "Maldives",
+        "population": 395650
+    },
+    "ML": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "ML",
+        "iso_alpha3": "MLI",
+        "name": "Mali",
+        "population": 13796354
+    },
+    "MT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "MT",
+        "iso_alpha3": "MLT",
+        "name": "Malta",
+        "population": 403000
+    },
+    "MH": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "MH",
+        "iso_alpha3": "MHL",
+        "name": "Marshall Islands",
+        "population": 65859
+    },
+    "MQ": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "MQ",
+        "iso_alpha3": "MTQ",
+        "name": "Martinique",
+        "population": 432900
+    },
+    "MR": {
+        "currency_code": "MRO",
+        "geoname_id": "MRO",
+        "iso_alpha2": "MR",
+        "iso_alpha3": "MRT",
+        "name": "Mauritania",
+        "population": 3205060
+    },
+    "MU": {
+        "currency_code": "MUR",
+        "geoname_id": "MUR",
+        "iso_alpha2": "MU",
+        "iso_alpha3": "MUS",
+        "name": "Mauritius",
+        "population": 1294104
+    },
+    "YT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "YT",
+        "iso_alpha3": "MYT",
+        "name": "Mayotte",
+        "population": 159042
+    },
+    "MX": {
+        "currency_code": "MXN",
+        "geoname_id": "MXN",
+        "iso_alpha2": "MX",
+        "iso_alpha3": "MEX",
+        "name": "Mexico",
+        "population": 112468855
+    },
+    "FM": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "FM",
+        "iso_alpha3": "FSM",
+        "name": "Micronesia",
+        "population": 107708
+    },
+    "MD": {
+        "currency_code": "MDL",
+        "geoname_id": "MDL",
+        "iso_alpha2": "MD",
+        "iso_alpha3": "MDA",
+        "name": "Moldova",
+        "population": 4324000
+    },
+    "MC": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "MC",
+        "iso_alpha3": "MCO",
+        "name": "Monaco",
+        "population": 32965
+    },
+    "MN": {
+        "currency_code": "MNT",
+        "geoname_id": "MNT",
+        "iso_alpha2": "MN",
+        "iso_alpha3": "MNG",
+        "name": "Mongolia",
+        "population": 3086918
+    },
+    "ME": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "ME",
+        "iso_alpha3": "MNE",
+        "name": "Montenegro",
+        "population": 666730
+    },
+    "MS": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "MS",
+        "iso_alpha3": "MSR",
+        "name": "Montserrat",
+        "population": 9341
+    },
+    "MA": {
+        "currency_code": "MAD",
+        "geoname_id": "MAD",
+        "iso_alpha2": "MA",
+        "iso_alpha3": "MAR",
+        "name": "Morocco",
+        "population": 33848242
+    },
+    "MZ": {
+        "currency_code": "MZN",
+        "geoname_id": "MZN",
+        "iso_alpha2": "MZ",
+        "iso_alpha3": "MOZ",
+        "name": "Mozambique",
+        "population": 22061451
+    },
+    "MM": {
+        "currency_code": "MMK",
+        "geoname_id": "MMK",
+        "iso_alpha2": "MM",
+        "iso_alpha3": "MMR",
+        "name": "Myanmar",
+        "population": 53414374
+    },
+    "NA": {
+        "currency_code": "NAD",
+        "geoname_id": "NAD",
+        "iso_alpha2": "NA",
+        "iso_alpha3": "NAM",
+        "name": "Namibia",
+        "population": 2128471
+    },
+    "NR": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "NR",
+        "iso_alpha3": "NRU",
+        "name": "Nauru",
+        "population": 10065
+    },
+    "NP": {
+        "currency_code": "NPR",
+        "geoname_id": "NPR",
+        "iso_alpha2": "NP",
+        "iso_alpha3": "NPL",
+        "name": "Nepal",
+        "population": 28951852
+    },
+    "NL": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "NL",
+        "iso_alpha3": "NLD",
+        "name": "Netherlands",
+        "population": 16645000
+    },
+    "AN": {
+        "currency_code": "ANG",
+        "geoname_id": "ANG",
+        "iso_alpha2": "AN",
+        "iso_alpha3": "ANT",
+        "name": "Netherlands Antilles",
+        "population": 300000
+    },
+    "NC": {
+        "currency_code": "XPF",
+        "geoname_id": "XPF",
+        "iso_alpha2": "NC",
+        "iso_alpha3": "NCL",
+        "name": "New Caledonia",
+        "population": 216494
+    },
+    "NZ": {
+        "currency_code": "NZD",
+        "geoname_id": "NZD",
+        "iso_alpha2": "NZ",
+        "iso_alpha3": "NZL",
+        "name": "New Zealand",
+        "population": 4252277
+    },
+    "NI": {
+        "currency_code": "NIO",
+        "geoname_id": "NIO",
+        "iso_alpha2": "NI",
+        "iso_alpha3": "NIC",
+        "name": "Nicaragua",
+        "population": 5995928
+    },
+    "NE": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "NE",
+        "iso_alpha3": "NER",
+        "name": "Niger",
+        "population": 15878271
+    },
+    "NG": {
+        "currency_code": "NGN",
+        "geoname_id": "NGN",
+        "iso_alpha2": "NG",
+        "iso_alpha3": "NGA",
+        "name": "Nigeria",
+        "population": 154000000
+    },
+    "NU": {
+        "currency_code": "NZD",
+        "geoname_id": "NZD",
+        "iso_alpha2": "NU",
+        "iso_alpha3": "NIU",
+        "name": "Niue",
+        "population": 2166
+    },
+    "NF": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "NF",
+        "iso_alpha3": "NFK",
+        "name": "Norfolk Island",
+        "population": 1828
+    },
+    "MP": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "MP",
+        "iso_alpha3": "MNP",
+        "name": "Northern Mariana Islands",
+        "population": 53883
+    },
+    "KP": {
+        "currency_code": "KPW",
+        "geoname_id": "KPW",
+        "iso_alpha2": "KP",
+        "iso_alpha3": "PRK",
+        "name": "North Korea",
+        "population": 22912177
+    },
+    "NO": {
+        "currency_code": "NOK",
+        "geoname_id": "NOK",
+        "iso_alpha2": "NO",
+        "iso_alpha3": "NOR",
+        "name": "Norway",
+        "population": 5009150
+    },
+    "OM": {
+        "currency_code": "OMR",
+        "geoname_id": "OMR",
+        "iso_alpha2": "OM",
+        "iso_alpha3": "OMN",
+        "name": "Oman",
+        "population": 2967717
+    },
+    "PK": {
+        "currency_code": "PKR",
+        "geoname_id": "PKR",
+        "iso_alpha2": "PK",
+        "iso_alpha3": "PAK",
+        "name": "Pakistan",
+        "population": 184404791
+    },
+    "PW": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "PW",
+        "iso_alpha3": "PLW",
+        "name": "Palau",
+        "population": 19907
+    },
+    "PS": {
+        "currency_code": "ILS",
+        "geoname_id": "ILS",
+        "iso_alpha2": "PS",
+        "iso_alpha3": "PSE",
+        "name": "Palestinian Territory",
+        "population": 3800000
+    },
+    "PA": {
+        "currency_code": "PAB",
+        "geoname_id": "PAB",
+        "iso_alpha2": "PA",
+        "iso_alpha3": "PAN",
+        "name": "Panama",
+        "population": 3410676
+    },
+    "PG": {
+        "currency_code": "PGK",
+        "geoname_id": "PGK",
+        "iso_alpha2": "PG",
+        "iso_alpha3": "PNG",
+        "name": "Papua New Guinea",
+        "population": 6064515
+    },
+    "PY": {
+        "currency_code": "PYG",
+        "geoname_id": "PYG",
+        "iso_alpha2": "PY",
+        "iso_alpha3": "PRY",
+        "name": "Paraguay",
+        "population": 6375830
+    },
+    "PE": {
+        "currency_code": "PEN",
+        "geoname_id": "PEN",
+        "iso_alpha2": "PE",
+        "iso_alpha3": "PER",
+        "name": "Peru",
+        "population": 29907003
+    },
+    "PH": {
+        "currency_code": "PHP",
+        "geoname_id": "PHP",
+        "iso_alpha2": "PH",
+        "iso_alpha3": "PHL",
+        "name": "Philippines",
+        "population": 99900177
+    },
+    "PN": {
+        "currency_code": "NZD",
+        "geoname_id": "NZD",
+        "iso_alpha2": "PN",
+        "iso_alpha3": "PCN",
+        "name": "Pitcairn",
+        "population": 46
+    },
+    "PL": {
+        "currency_code": "PLN",
+        "geoname_id": "PLN",
+        "iso_alpha2": "PL",
+        "iso_alpha3": "POL",
+        "name": "Poland",
+        "population": 38500000
+    },
+    "PT": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "PT",
+        "iso_alpha3": "PRT",
+        "name": "Portugal",
+        "population": 10676000
+    },
+    "PR": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "PR",
+        "iso_alpha3": "PRI",
+        "name": "Puerto Rico",
+        "population": 3916632
+    },
+    "QA": {
+        "currency_code": "QAR",
+        "geoname_id": "QAR",
+        "iso_alpha2": "QA",
+        "iso_alpha3": "QAT",
+        "name": "Qatar",
+        "population": 840926
+    },
+    "CG": {
+        "currency_code": "XAF",
+        "geoname_id": "XAF",
+        "iso_alpha2": "CG",
+        "iso_alpha3": "COG",
+        "name": "Republic of the Congo",
+        "population": 3039126
+    },
+    "RE": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "RE",
+        "iso_alpha3": "REU",
+        "name": "Reunion",
+        "population": 776948
+    },
+    "RO": {
+        "currency_code": "RON",
+        "geoname_id": "RON",
+        "iso_alpha2": "RO",
+        "iso_alpha3": "ROU",
+        "name": "Romania",
+        "population": 21959278
+    },
+    "RU": {
+        "currency_code": "RUB",
+        "geoname_id": "RUB",
+        "iso_alpha2": "RU",
+        "iso_alpha3": "RUS",
+        "name": "Russia",
+        "population": 140702000
+    },
+    "RW": {
+        "currency_code": "RWF",
+        "geoname_id": "RWF",
+        "iso_alpha2": "RW",
+        "iso_alpha3": "RWA",
+        "name": "Rwanda",
+        "population": 11055976
+    },
+    "BL": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "BL",
+        "iso_alpha3": "BLM",
+        "name": "Saint Barthelemy",
+        "population": 8450
+    },
+    "SH": {
+        "currency_code": "SHP",
+        "geoname_id": "SHP",
+        "iso_alpha2": "SH",
+        "iso_alpha3": "SHN",
+        "name": "Saint Helena",
+        "population": 7460
+    },
+    "KN": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "KN",
+        "iso_alpha3": "KNA",
+        "name": "Saint Kitts and Nevis",
+        "population": 51134
+    },
+    "LC": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "LC",
+        "iso_alpha3": "LCA",
+        "name": "Saint Lucia",
+        "population": 160922
+    },
+    "MF": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "MF",
+        "iso_alpha3": "MAF",
+        "name": "Saint Martin",
+        "population": 35925
+    },
+    "PM": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "PM",
+        "iso_alpha3": "SPM",
+        "name": "Saint Pierre and Miquelon",
+        "population": 7012
+    },
+    "VC": {
+        "currency_code": "XCD",
+        "geoname_id": "XCD",
+        "iso_alpha2": "VC",
+        "iso_alpha3": "VCT",
+        "name": "Saint Vincent and the Grenadines",
+        "population": 104217
+    },
+    "WS": {
+        "currency_code": "WST",
+        "geoname_id": "WST",
+        "iso_alpha2": "WS",
+        "iso_alpha3": "WSM",
+        "name": "Samoa",
+        "population": 192001
+    },
+    "SM": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "SM",
+        "iso_alpha3": "SMR",
+        "name": "San Marino",
+        "population": 31477
+    },
+    "ST": {
+        "currency_code": "STD",
+        "geoname_id": "STD",
+        "iso_alpha2": "ST",
+        "iso_alpha3": "STP",
+        "name": "Sao Tome and Principe",
+        "population": 175808
+    },
+    "SA": {
+        "currency_code": "SAR",
+        "geoname_id": "SAR",
+        "iso_alpha2": "SA",
+        "iso_alpha3": "SAU",
+        "name": "Saudi Arabia",
+        "population": 25731776
+    },
+    "SN": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "SN",
+        "iso_alpha3": "SEN",
+        "name": "Senegal",
+        "population": 12323252
+    },
+    "RS": {
+        "currency_code": "RSD",
+        "geoname_id": "RSD",
+        "iso_alpha2": "RS",
+        "iso_alpha3": "SRB",
+        "name": "Serbia",
+        "population": 7344847
+    },
+    "CS": {
+        "currency_code": "RSD",
+        "geoname_id": "RSD",
+        "iso_alpha2": "CS",
+        "iso_alpha3": "SCG",
+        "name": "Serbia and Montenegro",
+        "population": 10829175
+    },
+    "SC": {
+        "currency_code": "SCR",
+        "geoname_id": "SCR",
+        "iso_alpha2": "SC",
+        "iso_alpha3": "SYC",
+        "name": "Seychelles",
+        "population": 88340
+    },
+    "SL": {
+        "currency_code": "SLL",
+        "geoname_id": "SLL",
+        "iso_alpha2": "SL",
+        "iso_alpha3": "SLE",
+        "name": "Sierra Leone",
+        "population": 5245695
+    },
+    "SG": {
+        "currency_code": "SGD",
+        "geoname_id": "SGD",
+        "iso_alpha2": "SG",
+        "iso_alpha3": "SGP",
+        "name": "Singapore",
+        "population": 4701069
+    },
+    "SX": {
+        "currency_code": "ANG",
+        "geoname_id": "ANG",
+        "iso_alpha2": "SX",
+        "iso_alpha3": "SXM",
+        "name": "Sint Maarten",
+        "population": 37429
+    },
+    "SK": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "SK",
+        "iso_alpha3": "SVK",
+        "name": "Slovakia",
+        "population": 5455000
+    },
+    "SI": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "SI",
+        "iso_alpha3": "SVN",
+        "name": "Slovenia",
+        "population": 2007000
+    },
+    "SB": {
+        "currency_code": "SBD",
+        "geoname_id": "SBD",
+        "iso_alpha2": "SB",
+        "iso_alpha3": "SLB",
+        "name": "Solomon Islands",
+        "population": 559198
+    },
+    "SO": {
+        "currency_code": "SOS",
+        "geoname_id": "SOS",
+        "iso_alpha2": "SO",
+        "iso_alpha3": "SOM",
+        "name": "Somalia",
+        "population": 10112453
+    },
+    "ZA": {
+        "currency_code": "ZAR",
+        "geoname_id": "ZAR",
+        "iso_alpha2": "ZA",
+        "iso_alpha3": "ZAF",
+        "name": "South Africa",
+        "population": 49000000
+    },
+    "GS": {
+        "currency_code": "GBP",
+        "geoname_id": "GBP",
+        "iso_alpha2": "GS",
+        "iso_alpha3": "SGS",
+        "name": "South Georgia and the South Sandwich Islands",
+        "population": 30
+    },
+    "KR": {
+        "currency_code": "KRW",
+        "geoname_id": "KRW",
+        "iso_alpha2": "KR",
+        "iso_alpha3": "KOR",
+        "name": "South Korea",
+        "population": 48422644
+    },
+    "SS": {
+        "currency_code": "SSP",
+        "geoname_id": "SSP",
+        "iso_alpha2": "SS",
+        "iso_alpha3": "SSD",
+        "name": "South Sudan",
+        "population": 8260490
+    },
+    "ES": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "ES",
+        "iso_alpha3": "ESP",
+        "name": "Spain",
+        "population": 46505963
+    },
+    "LK": {
+        "currency_code": "LKR",
+        "geoname_id": "LKR",
+        "iso_alpha2": "LK",
+        "iso_alpha3": "LKA",
+        "name": "Sri Lanka",
+        "population": 21513990
+    },
+    "SD": {
+        "currency_code": "SDG",
+        "geoname_id": "SDG",
+        "iso_alpha2": "SD",
+        "iso_alpha3": "SDN",
+        "name": "Sudan",
+        "population": 35000000
+    },
+    "SR": {
+        "currency_code": "SRD",
+        "geoname_id": "SRD",
+        "iso_alpha2": "SR",
+        "iso_alpha3": "SUR",
+        "name": "Suriname",
+        "population": 492829
+    },
+    "SJ": {
+        "currency_code": "NOK",
+        "geoname_id": "NOK",
+        "iso_alpha2": "SJ",
+        "iso_alpha3": "SJM",
+        "name": "Svalbard and Jan Mayen",
+        "population": 2550
+    },
+    "SZ": {
+        "currency_code": "SZL",
+        "geoname_id": "SZL",
+        "iso_alpha2": "SZ",
+        "iso_alpha3": "SWZ",
+        "name": "Swaziland",
+        "population": 1354051
+    },
+    "SE": {
+        "currency_code": "SEK",
+        "geoname_id": "SEK",
+        "iso_alpha2": "SE",
+        "iso_alpha3": "SWE",
+        "name": "Sweden",
+        "population": 9828655
+    },
+    "CH": {
+        "currency_code": "CHF",
+        "geoname_id": "CHF",
+        "iso_alpha2": "CH",
+        "iso_alpha3": "CHE",
+        "name": "Switzerland",
+        "population": 7581000
+    },
+    "SY": {
+        "currency_code": "SYP",
+        "geoname_id": "SYP",
+        "iso_alpha2": "SY",
+        "iso_alpha3": "SYR",
+        "name": "Syria",
+        "population": 22198110
+    },
+    "TW": {
+        "currency_code": "TWD",
+        "geoname_id": "TWD",
+        "iso_alpha2": "TW",
+        "iso_alpha3": "TWN",
+        "name": "Taiwan",
+        "population": 22894384
+    },
+    "TJ": {
+        "currency_code": "TJS",
+        "geoname_id": "TJS",
+        "iso_alpha2": "TJ",
+        "iso_alpha3": "TJK",
+        "name": "Tajikistan",
+        "population": 7487489
+    },
+    "TZ": {
+        "currency_code": "TZS",
+        "geoname_id": "TZS",
+        "iso_alpha2": "TZ",
+        "iso_alpha3": "TZA",
+        "name": "Tanzania",
+        "population": 41892895
+    },
+    "TH": {
+        "currency_code": "THB",
+        "geoname_id": "THB",
+        "iso_alpha2": "TH",
+        "iso_alpha3": "THA",
+        "name": "Thailand",
+        "population": 67089500
+    },
+    "TG": {
+        "currency_code": "XOF",
+        "geoname_id": "XOF",
+        "iso_alpha2": "TG",
+        "iso_alpha3": "TGO",
+        "name": "Togo",
+        "population": 6587239
+    },
+    "TK": {
+        "currency_code": "NZD",
+        "geoname_id": "NZD",
+        "iso_alpha2": "TK",
+        "iso_alpha3": "TKL",
+        "name": "Tokelau",
+        "population": 1466
+    },
+    "TO": {
+        "currency_code": "TOP",
+        "geoname_id": "TOP",
+        "iso_alpha2": "TO",
+        "iso_alpha3": "TON",
+        "name": "Tonga",
+        "population": 122580
+    },
+    "TT": {
+        "currency_code": "TTD",
+        "geoname_id": "TTD",
+        "iso_alpha2": "TT",
+        "iso_alpha3": "TTO",
+        "name": "Trinidad and Tobago",
+        "population": 1228691
+    },
+    "TN": {
+        "currency_code": "TND",
+        "geoname_id": "TND",
+        "iso_alpha2": "TN",
+        "iso_alpha3": "TUN",
+        "name": "Tunisia",
+        "population": 10589025
+    },
+    "TR": {
+        "currency_code": "TRY",
+        "geoname_id": "TRY",
+        "iso_alpha2": "TR",
+        "iso_alpha3": "TUR",
+        "name": "Turkey",
+        "population": 77804122
+    },
+    "TM": {
+        "currency_code": "TMT",
+        "geoname_id": "TMT",
+        "iso_alpha2": "TM",
+        "iso_alpha3": "TKM",
+        "name": "Turkmenistan",
+        "population": 4940916
+    },
+    "TC": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "TC",
+        "iso_alpha3": "TCA",
+        "name": "Turks and Caicos Islands",
+        "population": 20556
+    },
+    "TV": {
+        "currency_code": "AUD",
+        "geoname_id": "AUD",
+        "iso_alpha2": "TV",
+        "iso_alpha3": "TUV",
+        "name": "Tuvalu",
+        "population": 10472
+    },
+    "UG": {
+        "currency_code": "UGX",
+        "geoname_id": "UGX",
+        "iso_alpha2": "UG",
+        "iso_alpha3": "UGA",
+        "name": "Uganda",
+        "population": 33398682
+    },
+    "UA": {
+        "currency_code": "UAH",
+        "geoname_id": "UAH",
+        "iso_alpha2": "UA",
+        "iso_alpha3": "UKR",
+        "name": "Ukraine",
+        "population": 45415596
+    },
+    "AE": {
+        "currency_code": "AED",
+        "geoname_id": "AED",
+        "iso_alpha2": "AE",
+        "iso_alpha3": "ARE",
+        "name": "United Arab Emirates",
+        "population": 4975593
+    },
+    "GB": {
+        "currency_code": "GBP",
+        "geoname_id": "GBP",
+        "iso_alpha2": "GB",
+        "iso_alpha3": "GBR",
+        "name": "United Kingdom",
+        "population": 62348447
+    },
+    "US": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "US",
+        "iso_alpha3": "USA",
+        "name": "United States",
+        "population": 310232863
+    },
+    "UM": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "UM",
+        "iso_alpha3": "UMI",
+        "name": "United States Minor Outlying Islands",
+        "population": 0
+    },
+    "UY": {
+        "currency_code": "UYU",
+        "geoname_id": "UYU",
+        "iso_alpha2": "UY",
+        "iso_alpha3": "URY",
+        "name": "Uruguay",
+        "population": 3477000
+    },
+    "VI": {
+        "currency_code": "USD",
+        "geoname_id": "USD",
+        "iso_alpha2": "VI",
+        "iso_alpha3": "VIR",
+        "name": "U.S. Virgin Islands",
+        "population": 108708
+    },
+    "UZ": {
+        "currency_code": "UZS",
+        "geoname_id": "UZS",
+        "iso_alpha2": "UZ",
+        "iso_alpha3": "UZB",
+        "name": "Uzbekistan",
+        "population": 27865738
+    },
+    "VU": {
+        "currency_code": "VUV",
+        "geoname_id": "VUV",
+        "iso_alpha2": "VU",
+        "iso_alpha3": "VUT",
+        "name": "Vanuatu",
+        "population": 221552
+    },
+    "VA": {
+        "currency_code": "EUR",
+        "geoname_id": "EUR",
+        "iso_alpha2": "VA",
+        "iso_alpha3": "VAT",
+        "name": "Vatican",
+        "population": 921
+    },
+    "VE": {
+        "currency_code": "VEF",
+        "geoname_id": "VEF",
+        "iso_alpha2": "VE",
+        "iso_alpha3": "VEN",
+        "name": "Venezuela",
+        "population": 27223228
+    },
+    "VN": {
+        "currency_code": "VND",
+        "geoname_id": "VND",
+        "iso_alpha2": "VN",
+        "iso_alpha3": "VNM",
+        "name": "Vietnam",
+        "population": 89571130
+    },
+    "WF": {
+        "currency_code": "XPF",
+        "geoname_id": "XPF",
+        "iso_alpha2": "WF",
+        "iso_alpha3": "WLF",
+        "name": "Wallis and Futuna",
+        "population": 16025
+    },
+    "EH": {
+        "currency_code": "MAD",
+        "geoname_id": "MAD",
+        "iso_alpha2": "EH",
+        "iso_alpha3": "ESH",
+        "name": "Western Sahara",
+        "population": 273008
+    },
+    "YE": {
+        "currency_code": "YER",
+        "geoname_id": "YER",
+        "iso_alpha2": "YE",
+        "iso_alpha3": "YEM",
+        "name": "Yemen",
+        "population": 23495361
+    },
+    "ZM": {
+        "currency_code": "ZMW",
+        "geoname_id": "ZMW",
+        "iso_alpha2": "ZM",
+        "iso_alpha3": "ZMB",
+        "name": "Zambia",
+        "population": 13460305
+    },
+    "ZW": {
+        "currency_code": "ZWL",
+        "geoname_id": "ZWL",
+        "iso_alpha2": "ZW",
+        "iso_alpha3": "ZWE",
+        "name": "Zimbabwe",
+        "population": 13061000
+    }
+}
