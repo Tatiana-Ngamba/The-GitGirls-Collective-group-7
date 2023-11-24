@@ -9,8 +9,8 @@ fips CHAR(3),
 country VARCHAR(50),
 capital VARCHAR(50),
 area_km2 FLOAT,
-population INT,
-continent VARCHAR(255)
+population FLOAT,
+continent CHAR(2)
 );
 
 INSERT INTO country_codes 
@@ -265,5 +265,3 @@ VALUES
 ('ZM','ZMB',894.0,'ZA','Zambia','Lusaka',752614.0,17351822.0,'AF'),
 ('ZW','ZWE',716.0,'ZI','Zimbabwe','Harare',390580.0,14439018.0,'AF'),
 ('AX','ALA',248.0,NULL,'Åland','Mariehamn',1580.0,26711.0,'EU');
-
-SELECT * FROM country_codes;
