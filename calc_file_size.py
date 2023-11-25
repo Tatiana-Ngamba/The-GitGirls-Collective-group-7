@@ -9,6 +9,6 @@ def calc_file_size(num_API_requests):
     else:
         judgement = "getting chunky."
 
-    print(f"For {num_API_requests} JSON objects, it will take {round(num_API_requests*pause/60,2)} mins to fetch and at {json_file_size_kb} KB per object, total filesize will be {mb_filesize} MB; that's {judgement}")
+    print(f"For {num_API_requests} JSON objects, it will take {round(num_API_requests*pause/60,2)} mins to fetch and at {round(json_file_size_kb)} KB per object, total filesize will be {round(mb_filesize)} MB; that's {judgement}")
 
 # calc_file_size(400)
