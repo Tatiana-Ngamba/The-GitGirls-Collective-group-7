@@ -10,7 +10,6 @@ from count_json_items import count_json_items, count_keys
 ##### Before running this script, your directory must include the files:
 # currency_rate.json
 # calc_file_size.py
-# count_json_items.py
 
 # You can run the file all in one hit however it is advised to uncomment and run the functions / print functions individually. Functions should always be left commented out to prevent accidental large API requests.
 
@@ -179,6 +178,35 @@ def api_to_dataframe():
 
 # api_to_dataframe()
 
+##########################################################################
+def get_gbp_conversion_rates(currency):
+    """param: 3 letter currency code, str, required
+    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate.json and a log file."""
+    try:
+        currency_request = requests.get(f"https://open.er-api.com/v6/latest/{currency}")
+        print(f"Status code: {currency_request.status_code}") 
+        if currency_request.status_code == 200:
+            currency_response = currency_request.json()
+            
+            if 'rates' in currency_response:               
+                request_time = datetime.datetime.now()
+                rates_updated = currency_response['time_last_update_unix']
+                
+                with open("currency_rate.json", "w") as currency_conversions:
+                    json.dump(currency_response, currency_conversions, indent=4)
+
+                with open("log_currency_rates.txt", "a") as log_currency_rates:
+                            log_currency_rates.write(
+                            f"{request_time} - Processed {currency} rates last updated on {rates_updated}.\n")
+            else:
+                print(f"Error: 'rates' not in response")       
+        else:
+            print(f"Error fetching data, {currency_request.status_code}")
+
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+
+# get_gbp_conversion_rates("GBP")
 
 ##########################################################################
 """Function works directly on output_inc_codes.csv generated above, in conjunction with currency_rate.json to convert the local currency salaries given by Teleport API to GBP. Outputs a new CSV file with the extra GBP salary columns."""
