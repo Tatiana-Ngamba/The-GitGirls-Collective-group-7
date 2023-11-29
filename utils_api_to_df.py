@@ -4,17 +4,16 @@ import pandas as pd
 from pandas import json_normalize
 import json
 import time
-from calc_file_size import calc_file_size
-from count_json_items import count_json_items, count_keys
+from utils_helper import calc_file_size, count_json_items, count_keys
 
-##### Before running this script, your directory must include the files:
-# currency_rate.json
-# calc_file_size.py
+#### Before running this script, your directory must include file utils_api_to_df.py
 
-# You can run the file all in one hit however it is advised to uncomment and run the functions / print functions individually. Functions should always be left commented out to prevent accidental large API requests.
+# If you just want to run all functions in one hit to create a new dataset, use main.py. 
+
+# If instead you only want to run individual functions, uncomment and run the API functions / print functions individually. Functions should always be left commented-out to prevent accidental large API requests, and/or uncontrolled update/overwrite of files.
 
 ##########################################################################
-"""Function makes an API request to retrieve list of countries from Teleport API (country name and url)"""
+"""1) Function makes an API request to retrieve list of countries from Teleport API (country name and url)"""
 
 def simple_get_list_countries(): # NB 252
     """Grabs list of countries with info available from Teleport API. Log file and JSON file are output."""
@@ -49,7 +48,8 @@ def simple_get_list_countries(): # NB 252
 
 # simple_get_list_countries()
 
-"""Check the count of countries retrieved from API"""
+
+"""2) Check the count of countries retrieved from API. Use this to ensure counter number in next function gets all results, and to pass into the calc_file_size function below, if required."""
 
 filepath = "list_countries.json"
 json_dict_structure = ['_links','country:items']
@@ -58,11 +58,13 @@ item_key = "name"
 # print(count_json_items(filepath, json_dict_structure, item_key)) # 252
 
 ##########################################################################
-""" This function makes an API call to Teleport to add grab overview country level data, including the currency_code which is used in the currency conversion function"""
+"""3) Function makes an API call to Teleport to add grab overview country level data, including the currency_code which is used in the currency conversion function"""
 
-def get_overviews_countries(): 
+api_calls_to_make = 252 # this should be number printed above. Set low (i.e. 10 if you only want to do a test run)
+
+def get_overviews_countries(api_calls_to_make): 
     """Grabs currency code, geoname, country code, name & population via Teleport API for each country. Log file entry made for every API request. Appends each JSON object under country-code key to a dictionary, then writes this to a single JSON file at the end."""
-    calc_file_size(252) # num countries 252
+    calc_file_size(api_calls_to_make) # num countries 252
     with open("list_countries.json", "r") as countries_list:
         country_list_data = json.load(countries_list)
     
@@ -71,7 +73,7 @@ def get_overviews_countries():
     counter = 0 # counts API requests
 
     for country in country_list_data['_links']['country:items']:
-        if counter < 400: # test run first 10 countries
+        if counter < api_calls_to_make+10: # counter can be set low for a test run
             api_country_url = f"{country['href']}"
             country_code = api_country_url[-3:-1]  # Extracting 2 letter the country code
             print(country_code)
@@ -117,12 +119,14 @@ def get_overviews_countries():
 
 # get_overviews_countries()
 
+""" 4) Counts the number of keys in the JSON dictionary which was just created, holding the salaries data for each country from Teleport. It should match the number of countries you passed into the previous function."""
+
 filepath = "overviews_all_countries.json"
 # print(count_keys(filepath)) # returns 252. Matches countries_list
 
 
 ##########################################################################
-"""This function makes an API request which retrieves country-level salary data from Teleport API. It utilises JSON data retrieved from the previous two API requests. It outputs this as a DataFrame object and a sibling .csv file. Please be patient, takes c30seconds to run."""
+""" 5) Function makes API request to retrieve country-level salary data from Teleport API. It utilises JSON data retrieved from the previous two API requests. It outputs this as a DataFrame object and a sibling .csv file. Please be patient, takes c30seconds to run."""
 
 def api_to_dataframe():
     # Load country list data for API call from existing JSON file
@@ -176,12 +180,15 @@ def api_to_dataframe():
     print(result_df)
     result_df.to_csv('output_inc_codes.csv', index=False)
 
-# api_to_dataframe()
+# api_to_dataframe() 
+
 
 ##########################################################################
+"""6) The following two functions are defined, then run together by calling a third function get_conversion_rates_insert_df(currency). These two have to be bundled, because the output of the first function (a timestamped currency json file) is fed into the creation of the DataFrame, to ensure consistency of the DataFrame."""
+
 def get_gbp_conversion_rates(currency):
     """param: 3 letter currency code, str, required
-    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate.json and a log file."""
+    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate_{timestamp}.json and a log file."""
     try:
         currency_request = requests.get(f"https://open.er-api.com/v6/latest/{currency}")
         print(f"Status code: {currency_request.status_code}") 
@@ -190,14 +197,16 @@ def get_gbp_conversion_rates(currency):
             
             if 'rates' in currency_response:               
                 request_time = datetime.datetime.now()
+                currency_timestamp = datetime.datetime.now().strftime("%y-%m-%d_%H-%M")
+                currency_rates_filename = f"currency_rates_{currency_timestamp}.json"
                 rates_updated = currency_response['time_last_update_unix']
                 
-                with open("currency_rate.json", "w") as currency_conversions:
+                with open(f"{currency_rates_filename}", "w") as currency_conversions:
                     json.dump(currency_response, currency_conversions, indent=4)
 
                 with open("log_currency_rates.txt", "a") as log_currency_rates:
                             log_currency_rates.write(
-                            f"{request_time} - Processed {currency} rates last updated on {rates_updated}.\n")
+                            f"{request_time} - Processed {currency} rates last updated at UNIX time {rates_updated}.\n")
             else:
                 print(f"Error: 'rates' not in response")       
         else:
@@ -206,14 +215,12 @@ def get_gbp_conversion_rates(currency):
     except requests.RequestException as e:
         print(f"Request failed: {e}")
 
-# get_gbp_conversion_rates("GBP")
+    return currency_rates_filename
 
-##########################################################################
-"""Function works directly on output_inc_codes.csv generated above, in conjunction with currency_rate.json to convert the local currency salaries given by Teleport API to GBP. Outputs a new CSV file with the extra GBP salary columns."""
-
-def convert_salary_to_GBP():
+def convert_salary_to_GBP(currency_rates_filename):
+    """Function works directly on output_inc_codes.csv generated above, in conjunction with currency_rate{timestamp}.json to convert the local currency salaries given by Teleport API to GBP. Outputs a new CSV file with extra GBP salary columns and a column showing the conversion rates used. Note, this file is uniquely named with a timestamp to assist with version control."""
     # Load the JSON file with exchange rates
-    with open('currency_rate.json', 'r') as file:
+    with open(f'{currency_rates_filename}', 'r') as file:
         data = json.load(file)
     exchange_rates = data['rates']
 
@@ -228,6 +235,11 @@ def convert_salary_to_GBP():
         else:
             return "N/A" # Return "N/A" for missing exchange rate
 
+    # The following 4 lambda functions create populate columns using the API call data
+
+    # Add a timestamped column stating the local to gbp conversion rates used
+    df['local_to_gbp_rates'] = df['currency_code'].apply(lambda x: data['rates'].get(x, "N/A"))
+
     # Apply the conversion to each row (country) for all three salary %iles
     df['gbp_converted_25th'] = df.apply(lambda row: convert_to_gbp(row['salary_percentiles_percentile_25'], row['currency_code']), axis=1)
 
@@ -235,7 +247,18 @@ def convert_salary_to_GBP():
 
     df['gbp_converted_75th'] = df.apply(lambda row: convert_to_gbp(row['salary_percentiles_percentile_75'], row['currency_code']), axis=1)
 
+    output_file_timestamp = datetime.datetime.now().strftime("%y-%m-%d_%H-%M")
     # Save the updated DataFrame into a new CSV
-    df.to_csv('output_gbp_salaries.csv', index=False)
+    df.to_csv(f'output_gbp_salaries_{output_file_timestamp}.csv', index=False)
 
-# convert_salary_to_GBP()
+
+def get_conversion_rates_insert_df(currency):
+    # Call the function to get conversion rates and save them
+    currency_rates_filename = get_gbp_conversion_rates(currency)
+    # Use the generated file to convert salaries
+    convert_salary_to_GBP(currency_rates_filename)
+
+##################### RUN THIS ###################
+
+currency = "GBP"
+# get_conversion_rates_insert_df(currency)
