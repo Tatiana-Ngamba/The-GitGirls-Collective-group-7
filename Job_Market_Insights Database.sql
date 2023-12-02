@@ -16,6 +16,30 @@ continent VARCHAR(2),
 currency_code VARCHAR(4)
 );
 
+-- 2.Creating the second table to store job details:
+CREATE TABLE Jobs (
+    Job_id VARCHAR(200),
+    iso_alpha2 CHAR(2), 
+    Job_title VARCHAR(200),
+    PRIMARY KEY (Job_id, iso_alpha2)
+);
+
+-- 3.Creating the third table to store salaries details:
+CREATE TABLE Salaries (
+    Salary_id INT PRIMARY KEY,
+    iso_alpha2 CHAR(2),
+    Job_id VARCHAR(200),
+    percentile_25 FLOAT,
+    percentile_25_GBP FLOAT,
+    percentile_50 FLOAT,
+    percentile_50_GBP FLOAT,
+    percentile_75 FLOAT,
+    percentile_75_GBP FLOAT,
+	FOREIGN KEY (iso_alpha2) REFERENCES countries (iso_alpha2),
+    FOREIGN KEY (Job_id) REFERENCES Jobs (Job_id)
+);
+
+
 -- Viewing all the tables in my database
 SHOW TABLES;
 
@@ -276,14 +300,6 @@ VALUES
 -- Viewing data from the Countries table
 SELECT * FROM Countries;
 
-
--- 2.Creating the second table to store job details:
-CREATE TABLE Jobs (
-    Job_id VARCHAR(200),
-    iso_alpha2 CHAR(2), 
-    Job_title VARCHAR(200),
-    PRIMARY KEY (Job_id, iso_alpha2)
-);
 
 -- TABLE 2 - Inserting data values for each column for the Jobs table:
 INSERT INTO Jobs (Job_id, iso_alpha2, Job_title)
@@ -10587,21 +10603,6 @@ INSERT INTO `Jobs` VALUES ('DATA-SCIENTIST','GH','Data Scientist'),
 -- -- Viewing data from the Jobs table
 SELECT * FROM Jobs;
 
-
--- 3.Creating the third table to store salaries details:
-CREATE TABLE Salaries (
-    Salary_id INT PRIMARY KEY,
-    iso_alpha2 CHAR(2),
-    Job_id VARCHAR(200),
-    percentile_25 FLOAT,
-    percentile_25_GBP FLOAT,
-    percentile_50 FLOAT,
-    percentile_50_GBP FLOAT,
-    percentile_75 FLOAT,
-    percentile_75_GBP FLOAT,
-	FOREIGN KEY (iso_alpha2) REFERENCES countries (iso_alpha2),
-    FOREIGN KEY (Job_id) REFERENCES Jobs (Job_id)
-);
 
 
 -- TABLE 3 - Inserting data values for each column for the Salaries table:
