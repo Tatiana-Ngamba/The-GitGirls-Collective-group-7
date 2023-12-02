@@ -1,6 +1,5 @@
 -- Creating a database
 CREATE DATABASE World_Job_Market_Insights;
- -- DROP DATABASE World_Job_Market_Insights;
 
 -- Using the database
 USE World_Job_Market_Insights;
