@@ -176,8 +176,19 @@ def api_to_dataframe():
     # Concatenate the data retrieved from the API calls into result DataFrame
     result_df = pd.concat(dfs, ignore_index=True)
 
+    # Solution for invalid currency codes
+    # Teleport API has outdated currency codes that do not match with those in the currency converter API
+    result_df.loc[884:935, 'currency_code'] = 'BYN'
+    result_df.loc[6032:6083, 'currency_code'] = 'MRU'
+    result_df.loc[10036:10087, 'currency_code'] = 'VES'
+
+    # For checking it works
+    # print(result_df.iloc[885])
+    # print(result_df.iloc[6035])
+    # print(result_df.iloc[10040])
+
     # Print & convert the final DataFrame to CSV
-    print(result_df)
+    # print(result_df)
     result_df.to_csv('output_inc_codes.csv', index=False)
 
 # api_to_dataframe() 
@@ -235,7 +246,7 @@ def convert_salary_to_GBP(currency_rates_filename):
         else:
             return "N/A" # Return "N/A" for missing exchange rate
 
-    # The following 4 lambda functions create populate columns using the API call data
+    # The following 4 lambda functions create & populate columns using the API call data
 
     # Add a timestamped column stating the local to gbp conversion rates used
     df['local_to_gbp_rates'] = df['currency_code'].apply(lambda x: data['rates'].get(x, "N/A"))
@@ -246,6 +257,11 @@ def convert_salary_to_GBP(currency_rates_filename):
     df['gbp_converted_50th'] = df.apply(lambda row: convert_to_gbp(row['salary_percentiles_percentile_50'], row['currency_code']), axis=1)
 
     df['gbp_converted_75th'] = df.apply(lambda row: convert_to_gbp(row['salary_percentiles_percentile_75'], row['currency_code']), axis=1)
+
+    #The iso_alpha2 for Namibia is "NA" however this is being displpayed as a null value.
+    #Therefore the location of the Namibia values are labelled "NA".
+    df.loc[6552:6603, 'iso_alpha2'] = 'NA'
+    #print(df.iloc[6555])
 
     output_file_timestamp = datetime.datetime.now().strftime("%y-%m-%d_%H-%M")
     # Save the updated DataFrame into a new CSV
