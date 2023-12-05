@@ -8,7 +8,6 @@ from calc_file_size import calc_file_size
 from count_json_items import count_json_items, count_keys
 
 ##### Before running this script, your directory must include the files:
-# currency_rate.json
 # calc_file_size.py
 # count_json_items.py
 
@@ -48,7 +47,7 @@ def simple_get_list_countries(): # NB 252
     except requests.RequestException as e:
         print(f"Request failed: {e}")
 
-simple_get_list_countries()
+# simple_get_list_countries()
 
 """Check the count of countries retrieved from API"""
 
@@ -102,8 +101,10 @@ def get_overviews_countries():
                         f"API Request: {counter} - Made at {request_time} - For {country_code} - {country_name}.\n")
                     time.sleep(0.5)
 
+
                 else:
                     all_countries_overview_data[country_code] = "N/A processing error API"  # Placeholder for omitted overview data due to API process error
+
                     print(f"Error fetching data for {country_code}, status code: {request_country_overview.status_code}")
                 
             except requests.RequestException as e:
@@ -116,7 +117,7 @@ def get_overviews_countries():
     with open("overviews_all_countries.json", "w") as file:
         json.dump(all_countries_overview_data, file, indent = 4)
 
-get_overviews_countries()
+# get_overviews_countries()
 
 filepath = "overviews_all_countries.json"
 # print(count_keys(filepath)) # returns 252. Matches countries_list
@@ -173,6 +174,7 @@ def api_to_dataframe():
     # Concatenate the data retrieved from the API calls into result DataFrame
     result_df = pd.concat(dfs, ignore_index=True)
 
+
     # Solution for invalid currency codes
     # Teleport API has outdated currency codes that do not match with those in the currency converter API
     result_df.loc[884:935, 'currency_code'] = 'BYN'
@@ -185,10 +187,40 @@ def api_to_dataframe():
     # print(result_df.iloc[10040])
 
     # Print & convert the final DataFrame to CSV
+    # print(result_df)
     result_df.to_csv('output_inc_codes.csv', index=False)
 
+# api_to_dataframe()
 
-api_to_dataframe()
+##########################################################################
+def get_gbp_conversion_rates(currency):
+    """param: 3 letter currency code, str, required
+    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate.json and a log file."""
+    try:
+        currency_request = requests.get(f"https://open.er-api.com/v6/latest/{currency}")
+        print(f"Status code: {currency_request.status_code}") 
+        if currency_request.status_code == 200:
+            currency_response = currency_request.json()
+            
+            if 'rates' in currency_response:               
+                request_time = datetime.datetime.now()
+                rates_updated = currency_response['time_last_update_unix']
+                
+                with open("currency_rate.json", "w") as currency_conversions:
+                    json.dump(currency_response, currency_conversions, indent=4)
+
+                with open("log_currency_rates.txt", "a") as log_currency_rates:
+                            log_currency_rates.write(
+                            f"{request_time} - Processed {currency} rates last updated on {rates_updated}.\n")
+            else:
+                print(f"Error: 'rates' not in response")       
+        else:
+            print(f"Error fetching data, {currency_request.status_code}")
+
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+
+# get_gbp_conversion_rates("GBP")
 
 
 ##########################################################################
@@ -226,4 +258,4 @@ def convert_salary_to_GBP():
     # Save the updated DataFrame into a new CSV
     df.to_csv('output_gbp_salaries.csv', index=False)
 
-convert_salary_to_GBP()
+# convert_salary_to_GBP()
