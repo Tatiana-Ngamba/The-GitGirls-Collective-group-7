@@ -274,6 +274,8 @@ def get_conversion_rates_insert_df(currency):
     # Use the generated file to convert salaries
     convert_salary_to_GBP(currency_rates_filename)
 
+    # NB: once this function has been run and we have output_gbp_salaries_{timestamp}.csv, technically the intermediate file output_inc_codes.csv can be deleted. During development, may be helpful for troubleshooting. If we find no use for the csv at the point of final-code review, we can add a line of code here to delete output_inc_codes.csv from the directory.
+
 ##################### RUN THIS ###################
 
 currency = "GBP"
