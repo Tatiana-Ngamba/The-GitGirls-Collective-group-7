@@ -1,7 +1,26 @@
+"""Helper functions for main_api_to_df.py"""
+
 import json
 
+def calc_file_size(num_API_requests):
+    """Estimates the file size of an API call. Only really needed for large API data requests. Param: number of JSON objects (int) expected from API request. """
+    json_file_size_kb = 154/10 # got from test of 100 sample results, stored as a JSON
+    pause = 0.5
+    # batch_size = 250
+    mb_filesize = (num_API_requests*json_file_size_kb)/1000
+    
+    if mb_filesize < 100:
+        judgement = "managable."
+    else:
+        judgement = "getting chunky."
+
+    print(f"For {num_API_requests} JSON objects, it will take {round(num_API_requests*pause/60,2)} mins to fetch and at {round(json_file_size_kb)} KB per object, total filesize will be {round(mb_filesize)} MB; that's {judgement}")
+
+# calc_file_size(400)
+
+
 def count_json_items(filepath, json_dict_structure, item_key):
-    """takes filepath, the dictionary key structure, and the key to be counted as parameters. Returns sentence including number of items."""
+    """ Counts the number of JSON/dictionary keys (at a specified level) in a JSON file. Params: filepath (str), the dictionary structure (list of keys, eg. ['_links','country:items'])  for the target key, and the target key (str, e.g. 'name') to be counted. Returns sentence including number of items. """
     try: 
         with open(filepath, "r") as json_file:
             json_data = json.load(json_file)
@@ -21,7 +40,7 @@ def count_json_items(filepath, json_dict_structure, item_key):
         print(f"Key error: {e}")
 
 # Test params
-# filepath = "D:\Documents\Computer Study\CURRENT CFG GQ Degree\Group Project\Teleport\list_countries.json"
+# filepath = "list_countries.json"
 # json_dict_structure = ['_links','country:items']
 # item_key = "name"
 # # 252
@@ -29,7 +48,7 @@ def count_json_items(filepath, json_dict_structure, item_key):
 
 
 def count_keys(filepath):
-    """ Function return count of keys in a JSON file dictionary"""
+    """Returns count of keys in a JSON file dictionary"""
     try:
         with open(filepath, "r") as json_file:
             json_data = json.load(json_file)
