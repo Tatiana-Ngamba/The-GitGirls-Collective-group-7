@@ -1,1 +1,0 @@
-Delete currency_rate.json, it's no longer needed (SK, 23 11 29)
