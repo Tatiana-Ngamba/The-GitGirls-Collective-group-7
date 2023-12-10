@@ -1,4 +1,4 @@
-"""Helper functions for main_api_to_df.py"""
+"""Helper functions for utils_api_to_df.py"""
 
 import json
 
@@ -18,6 +18,8 @@ def calc_file_size(num_API_requests):
 
 # calc_file_size(400)
 
+
+"""Function counts the number of JSON/dictionary keys (at a specified level) in a JSON file. Returns sentence including number of items. This allows verification of the number of countries information has been retrieved about. """
 
 def count_json_items(filepath, json_dict_structure, item_key):
     """ Counts the number of JSON/dictionary keys (at a specified level) in a JSON file. Params: filepath (str), the dictionary structure (list of keys, eg. ['_links','country:items'])  for the target key, and the target key (str, e.g. 'name') to be counted. Returns sentence including number of items. """
@@ -46,7 +48,7 @@ def count_json_items(filepath, json_dict_structure, item_key):
 # # 252
 # print(count_json_items(filepath, json_dict_structure, item_key))
 
-
+"""Function returns count of keys in a JSON file dictionary. Required to scale appropriately the size of the API request made to Teleport, to match country number."""
 def count_keys(filepath):
     """Returns count of keys in a JSON file dictionary"""
     try:

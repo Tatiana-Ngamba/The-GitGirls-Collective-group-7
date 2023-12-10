@@ -118,6 +118,7 @@ def get_overviews_countries(api_calls_to_make):
     # after loop completion, write combined country overview data to file
     with open("overviews_all_countries.json", "w") as file:
         json.dump(all_countries_overview_data, file, indent = 4)
+    print("Teleport countries-overview info API call finished!")
 
 # get_overviews_countries()
 
@@ -149,7 +150,7 @@ def api_to_dataframe():
         country_code = api_country_url[-12:-10] # Extracting 2 letter the country code excluding the /
         cc.append(country_code)
 
-    print(cc)
+    # print(cc) # displays the list of currency codes to be retrieved. Not required if previous function has been run.
     url = "https://api.teleport.org/api/countries/iso_alpha2:{}/salaries"
     dfs = []
 
@@ -195,35 +196,7 @@ def api_to_dataframe():
 
 # api_to_dataframe() 
 
-##########################################################################
-def get_gbp_conversion_rates(currency):
-    """param: 3 letter currency code, str, required
-    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate.json and a log file."""
-    try:
-        currency_request = requests.get(f"https://open.er-api.com/v6/latest/{currency}")
-        print(f"Status code: {currency_request.status_code}") 
-        if currency_request.status_code == 200:
-            currency_response = currency_request.json()
-            
-            if 'rates' in currency_response:               
-                request_time = datetime.datetime.now()
-                rates_updated = currency_response['time_last_update_unix']
-                
-                with open("currency_rate.json", "w") as currency_conversions:
-                    json.dump(currency_response, currency_conversions, indent=4)
 
-                with open("log_currency_rates.txt", "a") as log_currency_rates:
-                            log_currency_rates.write(
-                            f"{request_time} - Processed {currency} rates last updated on {rates_updated}.\n")
-            else:
-                print(f"Error: 'rates' not in response")       
-        else:
-            print(f"Error fetching data, {currency_request.status_code}")
-
-    except requests.RequestException as e:
-        print(f"Request failed: {e}")
-
-# get_gbp_conversion_rates("GBP")
 
 
 ##########################################################################
@@ -305,6 +278,7 @@ def get_conversion_rates_insert_df(currency):
     currency_rates_filename = get_gbp_conversion_rates(currency)
     # Use the generated file to convert salaries
     convert_salary_to_GBP(currency_rates_filename)
+    print("Function complete. Please see output_gbp_salaries{timestamp}.csv for your resulting data.")
 
     # NB: once this function has been run and we have output_gbp_salaries_{timestamp}.csv, technically the intermediate file output_inc_codes.csv can be deleted. During development, may be helpful for troubleshooting. If we find no use for the csv at the point of final-code review, we can add a line of code here to delete output_inc_codes.csv from the directory.
 
@@ -312,3 +286,35 @@ def get_conversion_rates_insert_df(currency):
 
 currency = "GBP"
 # get_conversion_rates_insert_df(currency)
+
+
+###################
+# This function outputs a JSON file with the currency codes. Useful if you just want the currency_code.json but don't want to feed it into the file / dataframe as above. The file is not timestamped #################################
+def get_gbp_conversion_rates_json(currency):
+    """param: 3 letter currency code, str, required
+    Function makes API request to open access exchangerate_api and retrieves JSON object of current exchange rates for passed in currency i.e. "GBP". Outputs a file called currency_rate.json and a log file."""
+    try:
+        currency_request = requests.get(f"https://open.er-api.com/v6/latest/{currency}")
+        print(f"Status code: {currency_request.status_code}") 
+        if currency_request.status_code == 200:
+            currency_response = currency_request.json()
+            
+            if 'rates' in currency_response:               
+                request_time = datetime.datetime.now()
+                rates_updated = currency_response['time_last_update_unix']
+                
+                with open("currency_rate.json", "w") as currency_conversions:
+                    json.dump(currency_response, currency_conversions, indent=4)
+
+                with open("log_currency_rates.txt", "a") as log_currency_rates:
+                            log_currency_rates.write(
+                            f"{request_time} - Processed {currency} rates last updated on {rates_updated}.\n")
+            else:
+                print(f"Error: 'rates' not in response")       
+        else:
+            print(f"Error fetching data, {currency_request.status_code}")
+
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+
+# get_gbp_conversion_rates("GBP")
