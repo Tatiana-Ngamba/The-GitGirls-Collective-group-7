@@ -1,5 +1,4 @@
-![git girls heading](jpggitgirlsheading.png)
-
+![https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7](gitgirlsheading.png)
 
 
 
