@@ -1,10 +1,7 @@
 ![https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7](GitGirls.png)
 
-
-
-
 ## GLOBAL IT SALARY ANALYSIS
-# ADD LOGO HERE  
+
 
 ## GIVE A BRIEF DESCRIPTION OF THIS PROJECT 
 -● Brief project
