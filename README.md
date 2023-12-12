@@ -1,4 +1,4 @@
-![alt text](image.jpg)
+![git girls heading](jpggitgirlsheading.png)
 
 
 
