@@ -1,4 +1,4 @@
-![https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7](gitgirlsheading.png)
+![https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7](GitGirls.png)
 
 
 
