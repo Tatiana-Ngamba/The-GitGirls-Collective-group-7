@@ -1,43 +1,34 @@
-# The-GitGirls-Collective-group-7
-# Project Documentation 
-(please note that this will be moved to an A4 document x5-7 as we introduce the code results, etc.; I am using this as a starting point, so we can all see the progress for now. - TN)
+# Project NAME 
+# ADD LOGO HERE  
 
-## 1.INTRODUCTION:
--● Aims and objectives of the project
--● Roadmap of the report
+## GIVE A BRIEF DESCRIPTION OF THIS PROJECT 
+-● Brief project
 
-## 2.BACKGROUND:
--● Any specific details about the project based on your chosen topic. For example: do a stock
-analysis to explain why some stocks went through a significant drop in price; study the factors
-contributing to air pollution in a given city; study the likelihood of a worsening or improving
-diabetes in children; identify the common skills and qualifications of the top-performing
-employees in a company or do a segmentation of a customer data set from an e-commerce
-website.
 
-## 3.SPECIFICATIONS AND DESIGN:
--● Requirements technical and non-technical
--● Design and architecture
+## The GitGirls Collective - Group 7 
+__________________________________________________________________________________________________________________________
 
-## 4.IMPLEMENTATION AND EXECUTION:
-**Thinking Process**
-- We met on Monday, Tuesday, and Friday to discuss our project topics and data findings.
-- Sam K was able to find great data sets and an API that could be integrated for this project.However, the data was in cybersecurity, and some people in the group didn't fully understand the data concept enough to work with it.
-- We have decided to use Nicola data sets instead, which were based on fraud activities. However, the issue that we encountered was finding an API to integrate within this project. 
+- Sam Kerr 
+- Nicola Prevost 
+- Tatiana Ngamba 
+- Alicia Monge Grasa
+- Samatha Hughes-Stanley
 
--● Development approach and team member roles
--● Tools and libraries
--● Implementation process (achievements, challenges, decision to change something)
--● Agile development (did your team use any agile elements like iterative approach, refactoring,
-code reviews, etc)
 
-## 5.DATA COLLECTION:
--● What information do you need?
--● What information is available?
--● What is your data source?
--● Describe how you collected the data (e.g., if you have used an API, briefly describe it).
+## Notebooks
+___________________________________________________________________________________________________________________________
+ - brief description and link the where the notebooks are 
+-● Radd description here
 
-## 6.CONCLUSION:
--● Evaluation of Project (confirmed by Stavros).
--● Limitations of project / data, what went well,what didn't go well (what we would change if we did it again)
--● what we would do if we could extend the project / Part 2 (further research options)
--● comments about any lack of resources / knowledge which may have assisted, etc
+
+
+## Data 
+___________________________________________________________________________________________________________________________
+- csv
+- excel 
+- list all of our data files here 
+
+
+## References
+___________________________________________________________________________________________________________________________
+-● add all of our references here 
