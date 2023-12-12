@@ -1,3 +1,9 @@
+![alt text](image.jpg)
+
+
+
+
+
 ## GLOBAL IT SALARY ANALYSIS
 # ADD LOGO HERE  
 
