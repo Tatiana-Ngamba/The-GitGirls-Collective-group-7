@@ -31,17 +31,28 @@ ________________________________________________________________________________
 - list all of our data files here 
 
 For the correct functioning of the project, before running any code, the user must need to have installed the following modules in python:
+
 ● pandas
+
 ● numpy
+
 ● seaborn
+
 ● matplotlib.pyplot
+
 ● math
+
 ● sqlalchemy
+
 ● openpyxl
+
 ● mysql-connector-python
+
 ● sklearn
-●statsmodel
-● warnings (Warnings module is optional but displays a cleaner version of the code)
+
+● statsmodel
+
+● warnings (warnings module is optional but displays a cleaner version of the code)
 
 Run this code in your terminal to install each of the above modules: pip install module_name, eg. pip install pandas
 *Make sure that you have an updated version of pandas to avoid running into errors when communicating between SQL and the jupyter notebook (tested with version pandas version 2.1.4)
