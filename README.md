@@ -16,12 +16,14 @@ ________________________________________________________________________________
 - Alicia Monge Grasa
 - Samatha Hughes-Stanley
 
+The following readme file 
 
-## Notebooks
+## Jupyter Notebooks
 ___________________________________________________________________________________________________________________________
- - brief description and link the where the notebooks are 
--● Radd description here
-
+ - Download both notebooks *GLOBAL IT SALARY ANALYSIS - Notebook Part 1 (Python API code)* and *GLOBAL IT SALARY ANALYSIS - Notebook Part 2 (Data Analysis)* from here [https://github.com/Tatiana-Ngamba/](link)
+ - Select Python3 kernel for Jupyter notebook initialisation
+ - Use the command - jupyter lab - in the python terminal to initialise it
+ - Add description here
 
 
 ## Data 
@@ -30,39 +32,52 @@ ________________________________________________________________________________
 - excel 
 - list all of our data files here 
 
-For the correct functioning of the project, before running any code, the user must need to have installed the following modules in python:
+## Prerequisites
 
-● pandas
+For the correct functioning of the project, before running any of the project code files, the user must need to have installed the following modules in python. See also the versions used of each to run this code effectively:
 
-● numpy
+**Module == version**
 
-● seaborn
+● pandas == 2.1.4
 
-● matplotlib
+● numpy == 1.26.2
 
-● sqlalchemy
+● seaborn == 0.13.0
 
-● openpyxl
+● matplotlib == 3.8.2
 
-● mysql-connector-python
+● SQLAlchemy == 2.0.23
 
-● scikit-learn
+● mysql-connector-python == 8.2.0
 
-● statsmodel
+● scikit-learn == 1.3.1
 
-●geopandas
+● statsmodel == 0.14.0
 
-Run this code in your terminal to install each of the above modules:
+● geopandas == 0.14.0
+
+Run the code <!pip install module_name> in your terminal to install each of the above modules:
+
 !pip install pandas
-!pip install numpy
-!pip install seaborn
-!pip install matplotlib
-!pip install statsmodels
-!pip install scikit-learn
-!pip install sqlalchemy
-!pip install geopandas
-*Make sure that you have an updated version of pandas to avoid running into errors when communicating between SQL and the jupyter notebook (tested with version pandas version 2.1.4)
 
-## References
-___________________________________________________________________________________________________________________________
--● add all of our references here 
+!pip install numpy
+
+!pip install seaborn
+
+!pip install matplotlib
+
+!pip install SQLAlchemy
+
+!pip install mysql-connector-python
+
+!pip install statsmodels
+
+!pip install scikit-learn
+
+!pip install sqlalchemy
+
+!pip install geopandas
+
+
+## Data files
+
