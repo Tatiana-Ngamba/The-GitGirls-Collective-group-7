@@ -38,9 +38,7 @@ For the correct functioning of the project, before running any code, the user mu
 
 ● seaborn
 
-● matplotlib.pyplot
-
-● math
+● matplotlib
 
 ● sqlalchemy
 
@@ -48,13 +46,21 @@ For the correct functioning of the project, before running any code, the user mu
 
 ● mysql-connector-python
 
-● sklearn
+● scikit-learn
 
 ● statsmodel
 
-● warnings (warnings module is optional but displays a cleaner version of the code)
+●geopandas
 
-Run this code in your terminal to install each of the above modules: pip install module_name, eg. pip install pandas
+Run this code in your terminal to install each of the above modules:
+!pip install pandas
+!pip install numpy
+!pip install seaborn
+!pip install matplotlib
+!pip install statsmodels
+!pip install scikit-learn
+!pip install sqlalchemy
+!pip install geopandas
 *Make sure that you have an updated version of pandas to avoid running into errors when communicating between SQL and the jupyter notebook (tested with version pandas version 2.1.4)
 
 ## References
