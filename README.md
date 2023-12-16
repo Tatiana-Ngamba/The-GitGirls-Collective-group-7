@@ -1,6 +1,6 @@
 ![https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7](GitGirls.png)
 
-## GLOBAL IT SALARY ANALYSIS
+# GLOBAL IT SALARY ANALYSIS
 
 
 ## GIVE A BRIEF DESCRIPTION OF THIS PROJECT 
@@ -16,27 +16,17 @@ ________________________________________________________________________________
 - Alicia Monge Grasa
 - Samatha Hughes-Stanley
 
-The following readme file 
+The following readme file sets step by step instructions of how to run this code
 
-## Jupyter Notebooks
+
+# 🔧 Prerequisites 🔧
 ___________________________________________________________________________________________________________________________
- - Download both notebooks *GLOBAL IT SALARY ANALYSIS - Notebook Part 1 (Python API code)* and *GLOBAL IT SALARY ANALYSIS - Notebook Part 2 (Data Analysis)* from here [https://github.com/Tatiana-Ngamba/](link)
- - Select Python3 kernel for Jupyter notebook initialisation
- - Use the command - jupyter lab - in the python terminal to initialise it
- - Add description here
+For the correct functioning of the project, before running any of the project code files, **the user must need to have installed in their PC both Python and Jupyter**. 
 
+## Required Python Libraries and version compatibility:
+Also make sure the following python libraries are installed. See the versions used for each of this libraries that allowed us to code and run this code effectively:
 
-## Data 
-___________________________________________________________________________________________________________________________
-- csv
-- excel 
-- list all of our data files here 
-
-## Prerequisites
-
-For the correct functioning of the project, before running any of the project code files, the user must need to have installed the following modules in python. See also the versions used of each to run this code effectively:
-
-**Module == version**
+**Library == version**
 
 ● pandas == 2.1.4
 
@@ -56,7 +46,7 @@ For the correct functioning of the project, before running any of the project co
 
 ● geopandas == 0.14.0
 
-Run the code <!pip install module_name> in your terminal to install each of the above modules:
+Run the code <!pip install library_name> in your terminal to install each of the above modules:
 
 !pip install pandas
 
@@ -79,5 +69,31 @@ Run the code <!pip install module_name> in your terminal to install each of the 
 !pip install geopandas
 
 
-## Data files
+# 📂 Data files and datasets 📂
+
+## Jupyter Notebooks
+___________________________________________________________________________________________________________________________
+ - Download both notebooks *GLOBAL IT SALARY ANALYSIS - Notebook Part 1 (Python API code)* and *GLOBAL IT SALARY ANALYSIS - Notebook Part 2 (Data Analysis)* from the branch Project Code [here](https://github.com/Tatiana-Ngamba/The-GitGirls-Collective-group-7/tree/Project_Code)
+
+ - Select Python3 kernel for Jupyter notebook initialisation
+ - Use the command - jupyter lab - in the python terminal to initialise it
+ - Place both Jupyter Notebooks in the same path as the jupyter session just initialised
+
+
+## Datasets 
+___________________________________________________________________________________________________________________________
+Part of the data gets retrieved via an API call but this project makes use of additional data sources as csv and SQL files too.
+In the same path where the Notebooks have been previously saved, create a folder named *Data* and download and place there the following datasets and files: 
+- excel 
+- list all of our data files here 
+
+
+# ✨ Run the code ✨
+
+Once all the above steps have been followed, before running the notebooks, make sure to:
+
+- Write your password to MySQL Workbench in the config.py file as follows DATABASE_PASSWORD = 'Insert_password'
+- Open MySQLWorkbench and run the SQL file
+- Run JupyterNotebook Part 1
+- Run Jupyter Notebook Part 2 
 
