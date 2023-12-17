@@ -3,7 +3,7 @@
 # GLOBAL IT SALARY ANALYSIS
 
 
-## GIVE A BRIEF DESCRIPTION OF THIS PROJECT 
+## Project Description
 
 This project provides an in-depth analysis of worldwide IT job salaries, with a particular focus on gender-based wage disparities. Beyond mere financial aspects, our exploration of IT compensation delves deeper, our project is designed to conduct a thorough examination of global IT job salaries, encompassing a multifaceted approach. We aim to uncover variations in compensation across different countries, specifically addressing the gender wage gap within the IT sector. Additionally, we seek to understand the influence of population density on salary values by employing a simple linear regression model. This multifaceted exploration will provide valuable insights into the complex dynamics of IT job compensations worldwide.
 
